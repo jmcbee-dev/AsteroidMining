@@ -3,7 +3,7 @@ import math
 from matplotlib import pyplot as plt
 import  psycopg2
 
-conn = psycopg2.connect(database="postgres", user="jacob", password="ZXCasdqwe123!@#")
+conn = psycopg2.connect(database="postgres", user="jacob", password=None)
 cursor = conn.cursor()
 
 def execute_query(query):
