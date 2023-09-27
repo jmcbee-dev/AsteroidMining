@@ -1,5 +1,5 @@
 # AsteroidMining
-Report on the viability of asteroid mining. [Report can be found here](https://github.com/jmcbee-dev/AsteroidMining/blob/main/AsteroidMiningReport.pdf)
+Report on the viability of asteroid mining. [Report can be found here](AsteroidMiningReport.pdf)
 
 Data was sourced from https://www.kaggle.com/sakhawat18/asteroid-dataset
 
