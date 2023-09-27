@@ -12,19 +12,21 @@ The resulting schema will look like such
 
 ```mermaid
 classDiagram
-Class01 <|-- AveryLongClass : Cool
-<<Interface>> Class01
-Class09 --> C2 : Where am I?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  <<service>>
-  int id
-  size()
-}  
+asteroid_data <|-- c_type
+asteroid_data <|-- s_type
+asteroid_data <|-- m_type
+asteroid_data <|-- unknown 
+class asteroid_data {
+  VARCHAR(1024) id
+  SERIAL spkid
+  float diameter
+}
+class c_type {
+  VARCHAR(1024) id
+  float diameter
+}
+class s_type {
+  VARCHAR(1024) id
+  float diameter
+}
 ```
