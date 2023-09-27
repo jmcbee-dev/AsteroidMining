@@ -20,12 +20,27 @@ class asteroid_data {
   VARCHAR(1024) id
   SERIAL spkid
   float diameter
+  ...
 }
 class c_type {
   VARCHAR(1024) id
   float diameter
+  float semi_major
+  float perihelion
 }
 class s_type {
+  VARCHAR(1024) id
+  float diameter
+  float semi_major
+  float perihelion
+}
+class m_type {
+  VARCHAR(1024) id
+  float diameter
+  float semi_major
+  float perihelion
+}
+class unknown {
   VARCHAR(1024) id
   float diameter
 }
