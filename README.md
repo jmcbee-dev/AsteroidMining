@@ -8,7 +8,7 @@ On a local database, run the init.sql script while copying the data over. Typica
 
 `\copy aseteroid_data from dataset.csv csv header;`
 
-The resulting schema will look like such
+The resulting schema will look as such
 
 ```mermaid
 classDiagram
@@ -45,3 +45,6 @@ class unknown {
   float diameter
 }
 ```
+Following this run the `data_collecting.sql` within an SQL session to the parse the data into sample analytics.
+
+Further analysis and plotting of the data is done with a python file located in the charts directory.
